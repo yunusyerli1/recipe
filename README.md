@@ -33,7 +33,6 @@ In this project, I worked on recipe website using react. For api, I used www.eda
 - React-redux-dom
 - Bootstrap
 
-### ✨ [Live Demo](https://mealrecipe.herokuapp.com/)
 
 ## Usage
 
