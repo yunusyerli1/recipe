@@ -1,68 +1,87 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Recipe App </h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a hraef="https://github.com/yunusyerli1/streamy" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/yunusyerli1/streamy" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://twitter.com/cmk_y" target="_blank">
+    <img alt="Twitter: cmk_y" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fcmk_y" />
+  </a>
 
-## Available Scripts
+<a href="https://github.com/yunusyerli1/streamy" target="_blank">
+    <img alt="Web Site" src="https://res.cloudinary.com/yerli/image/upload/v1588371810/Project/recipe_tsdyal.jpg" />
+  </a>
 
-In the project directory, you can run:
+<a href="https://github.com/yunusyerli1/streamy" target="_blank">
+    <img alt="Web Site" src="https://res.cloudinary.com/yerli/image/upload/v1586695452/Project/streamy_nbd5gi.jpg" />
+  </a>
+</p>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Info
+In this project, I worked on twitch replica website using react redux.  I tried to make a website like Twitch. First, you can sign in via Google Authentication. If you sign-in, you can create, delete, edit a channel and start streaming via OBS.For streaming, you need to get id number of the channel and put the id as stream key in OBS (Settings-Stream). 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Redux
+- JavaScript (ES6)
+- Npm
+- Create-React-App
+- Json-Server
+- Rtmp Server
+- Google API
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### ✨ [Live Demo](https://streamyappyerli.herokuapp.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+> Clone the repository to your local machine
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+$ git clone https://github.com/Yunusyerli1/streamy.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> cd into the directory, install dependencies, build and start 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+$ cd client
+$ npm run start
+$ cd api
+$ npm run start
+$ cd rmtpserver
+$ npm run start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+> Open the project [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> Open the database [http://localhost:3001/streams](http://localhost:3001/streams) to view it in the browser.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Yunus YERLİ**
 
-### Code Splitting
+- Github: [@yunusyerli1](https://github.com/Yunusyerli1)
+- Twitter: [@cmk_y](https://twitter.com/cmk_y)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Yunusyerli1/streamy/issues).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+1. Fork it (https://github.com/Yunusyerli1/streamy.git/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new Pull Request
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
